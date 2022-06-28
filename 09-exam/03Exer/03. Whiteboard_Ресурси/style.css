@@ -1,0 +1,220 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+header{
+    background: linear-gradient(100deg, rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.603)), url(image/computer-main.jpg), no-repeat;
+    background-position-y: -19rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: cover;
+    
+    text-align: center;
+    color:white;
+    height: 50rem;
+}
+
+
+header a{
+    text-decoration: none;
+    color:white;
+}
+
+
+header .fa-arrow-right{
+    background-color: white;
+    color:black;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    padding:0.2rem 0.3rem;
+    margin-left: 1rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1{
+    font-size: 4rem;
+}
+
+header p, header a{
+    font-size: 1.5rem;
+}
+
+header p{
+    width: 27%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header button{
+    background-color: #00D08D;
+    color:white;
+    padding: 0.8rem 1.2rem;
+    align-self: center;
+    border:none;
+    border-radius: 0.2rem;    
+    font-weight: bold;
+    font-size: 1.5rem;
+    display:block;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: transparent;
+    border:3px solid white;
+}
+
+
+#tablet{
+    display:flex;
+}
+
+#tablet .info{
+    padding: 4rem;
+}
+
+#tablet ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+#tablet li {
+    margin-bottom: 2rem;
+    color:#828283;
+}
+
+.fa-check{
+    background-color: #00D08D;
+    color:white;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    padding:0.2rem 0.3rem;
+    margin-right: 2rem;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 2.7rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    letter-spacing: 1px;
+
+}
+
+#tablet li, #tablet p{
+    font-size: 1.5rem;
+    font-weight: 100
+}
+
+#tablet p {
+    margin-block-start: 10px;
+    margin-block-end: 4rem;
+    width: 76%;
+    letter-spacing: 1px;
+}
+
+#tablet img{
+    width: 50%;
+    height:38rem;
+}
+
+#pen {
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-image{
+    width: 50%;
+    height: 37rem;
+}
+
+#pen ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 63%;
+}
+
+#pen li {
+    color:#00D08D;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.7rem;
+}
+
+#pen li p {
+    margin-block-start: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#pen .info{
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pen h1{
+    margin-block-start: 3rem;
+    margin-block-end: 3rem;
+}
+
+.list-image{
+    width: 5rem;
+}
+
+
+footer {
+    background-color: #b2f1dd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    
+}
+
+article{
+    width: 23%;
+    text-align: center;
+    margin: 2rem;
+}
+
+footer h1{
+    font-weight: bolder;
+    font-size: 2.7rem;
+    margin-block-end: 0;
+    margin-block-start: 2rem;
+    letter-spacing: 1px;
+}
+
+footer article h3{
+    font-size: 1.7rem;
+}
+
+footer p{
+    font-size: 1.5rem;
+}
+
+#last-line{
+    font-weight: bolder;;
+}

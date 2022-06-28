@@ -1,0 +1,86 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+
+body{
+    height: 95vh;
+    width: 100vw;
+}
+
+fieldset {
+    border: 2px solid lightgray;
+    min-width: 25rem;
+    width:35rem;
+    min-height:10rem;
+    padding: 2rem;
+    row-gap: 1rem;
+    background-color: #F1F1F1;
+    position:relative;
+}
+
+form{
+    position: relative;
+    top:40%;
+    left:35%;
+}
+
+.fieldset-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display:inline-block;
+}
+
+fieldset button{    
+    font-weight: bolder;
+}
+
+input{
+    height:1.7rem;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    position:absolute;
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.7rem;
+    width: 20%;
+    border-radius: 4px;
+}
+
+.inputField{
+    display:flex;
+    justify-content: space-between;
+}
+
+.iconInput{
+    position:relative;
+    width: 75%;
+}
+
+i {
+    position:absolute;
+    left:10px;
+    top:7px;
+}
+
+legend{
+    width:20%;
+    background-color: white;
+    border: 2px solid lightgray;
+    padding:0.5rem;
+    font-weight: bolder;
+    position:absolute;
+    top: -20px;
+    left:-2px;
+}

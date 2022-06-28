@@ -1,0 +1,16 @@
+body{
+    background-color: whitesmoke;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+tr:nth-child(1){
+    background-color: darkslategray;
+    color:white;
+}

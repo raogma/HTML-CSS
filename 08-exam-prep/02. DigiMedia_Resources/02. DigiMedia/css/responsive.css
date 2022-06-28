@@ -1,0 +1,52 @@
+@media (max-width:600px){
+    nav.navbar{
+        justify-content: center;
+    }
+    .navbar .navbar-brand{
+        margin-right:unset;
+    }
+
+    .hero img{
+        display:none;
+    }
+
+    .hero{
+        text-align: center;
+    }
+    .hero-btns a{
+        display:block;
+    }
+    .hero-btns{
+        width: 80%;
+        margin:0 auto;
+    }
+    #about-us .row{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #about-us .col-12{
+        max-width:100%;
+        text-align: left;
+    }
+    .about{
+        text-align: center;
+    }
+    .about .row div:nth-child(2){
+        margin-top:5rem;
+    }
+
+    #contact-us{
+        text-align:center;
+    }
+
+    footer .row ul{
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer h3 {
+        width: 60%;
+        margin:0 auto;
+    }
+}

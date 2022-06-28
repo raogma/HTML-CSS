@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(238, 238, 238);
+}
+
+
+main{
+    display: flex;
+    flex-direction:column;
+}
+
+.card {
+    width: 10rem;
+    background-color: white;
+    margin: 0.5rem 0;
+}
+
+img{
+    width: 100%;
+}
+.cards-layout{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width: 30vw;
+    height: 170vh;
+    justify-content: flex-start;
+}
+
+
+.cards-layout section, .cards-layout footer{
+    padding: 0 0.5rem;
+}
+
+footer{
+    border-top: 2px solid rgb(238, 238, 238);
+}

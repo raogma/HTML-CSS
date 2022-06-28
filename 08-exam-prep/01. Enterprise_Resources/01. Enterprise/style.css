@@ -1,0 +1,45 @@
+html {
+    font-family: Helvetica;
+}
+
+.container{
+    background-color: #f6f8f9;
+    max-width: 1000px;
+    margin: 2rem auto;
+    display: flex;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.info{
+    padding: 2rem;
+    padding-right: 7rem;
+}
+
+.image{
+    align-self: flex-end;
+}
+
+#contact-btn{
+    background-color: #786eff;
+    border-color: #786eff;
+    color:white;
+}
+
+#more-btn{
+    background-color: white;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:5px;
+}
+
+p{
+    color:darkgray;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    padding: 0.2rem 5rem;
+}
+
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width:17rem;
+}
+
+header ul {
+    display:flex;
+    list-style: none;
+    justify-content:space-around;
+    flex-basis: 17rem;
+}
+
+header a {
+    color:rgb(0, 153, 0);
+    text-decoration:none;
+}
+
+header p{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform:uppercase;
+}

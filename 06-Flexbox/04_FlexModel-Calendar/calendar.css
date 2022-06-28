@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+div,
+section {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    max-width: 65vw;
+}
+
+span {
+    border: 1px solid black;
+}
+
+section.notes {
+    flex-direction: column;
+}
+
+section.week {
+    flex-wrap: wrap;
+}
+
+
+span.heading {
+    flex: 5 1 40rem;
+}
+
+span {
+    flex: 1 1 5rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    padding-bottom: 4rem;
+}
+
+.notes span {
+    padding-bottom: 9.5rem;
+    width: 8rem;
+}
